@@ -1,0 +1,61 @@
+
+		body {
+		  padding-top: 50px;
+		  background-color: black;
+		  font-family: 'Josefin Slab', serif;
+		}
+		.starter-template {
+		  /*padding: 40px 15px;*/
+		  text-align: center;
+		}
+
+		#map1 { width: 100%; height:600px; float: left; background: black;}
+		#map2 { width: 50%; height:100%; float: right; background: black;display: none; }
+		.dropdown-menu {
+			height: auto;
+			overflow-x: hidden;
+			max-height: 400px;
+		}
+		#dual-map-button { text-align: center;position: absolute;bottom: 10px;width: 100%; }
+		#info-panel {
+			position: absolute;
+			left: 40px;
+			bottom: 50px;
+			padding: 10px;
+			width: 220px;
+			/*height: 180px;*/
+			background-color: rgba(255,255,255,0.7);
+			/*background-image: -webkit-linear-gradient(top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0.8) 100%);*/
+			color: rgb(0,0,0);
+			border-radius: 10px;
+		}
+		.info-cost {
+			font-size: 2em;
+			font-weight: 1200;
+		}
+		.info-big {
+			font-size: 2em;
+		}
+		.info {
+			font-size: 1em;
+			color: rgba(0,0,0,0.5);
+		}
+
+		@media (min-width: 1200px)
+		.container {
+			width: 100%;
+		}
+
+		.container {
+			padding-right: 0px;
+			padding-left: 0px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.navbar-header {
+			padding-left: 10px;
+		}
+		.header1 {
+			font-size: 1.5em;
+			color: skyblue;
+		}

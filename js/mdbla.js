@@ -64,8 +64,14 @@ $( document ).ready(function() {
 });
 
 $( window ).resize(function() {
-	$('#map1').css('height',$(window).height()-50)
+	mdbla.resize();
 });
+
+mdbla.resize = function()
+{
+	$('#map1').css('height',$(window).height()-50);
+	$('.container').css('width','100%');	
+}
 
 /*
 
@@ -75,7 +81,7 @@ $( window ).resize(function() {
 mdbla.init = function()
 {	
 	// adjust map window height
-	$('#map1').css('height',$(window).height()-50)
+	mdbla.resize();
 
 	// set map options
 	var mapOptions = {
